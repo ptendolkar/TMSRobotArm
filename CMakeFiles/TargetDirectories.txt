@@ -1,3 +1,0 @@
-/home/Pleb/Documents/RobotArmHeadAvoid/CMakeFiles/cgal_transform.dir
-/home/Pleb/Documents/RobotArmHeadAvoid/MeshConverter/CMakeFiles/meshconv.dir
-/home/Pleb/Documents/RobotArmHeadAvoid/CMakeFiles/testsfml.dir
