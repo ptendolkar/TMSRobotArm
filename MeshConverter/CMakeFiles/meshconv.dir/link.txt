@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/meshconv.dir/MeshConverter.cpp.o CMakeFiles/meshconv.dir/vcglib/wrap/ply/plylib.cpp.o  -o meshconv -rdynamic -lGL 

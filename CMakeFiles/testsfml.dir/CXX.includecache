@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/Pleb/Documents/RobotArmHeadAvoid/testsfml.cpp
+SFML/Graphics.hpp
+-
+GL/glew.h
+-
+stdio.h
+-
+

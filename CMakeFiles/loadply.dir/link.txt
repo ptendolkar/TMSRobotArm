@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/loadply.dir/loadply.cpp.o CMakeFiles/loadply.dir/vcglib/wrap/ply/plylib.cpp.o  -o loadply -rdynamic -lGL 
