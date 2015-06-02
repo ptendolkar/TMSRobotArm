@@ -16,12 +16,12 @@ typedef Polyhedron::Halfedge_around_facet_circulator Halfedge_facet_circulator;
 
 int main() {
 	std::ifstream in("test.off");
-	std::streambuf *cinbuf = std::cin.rdbuf(); //save old buf
-	std::cin.rdbuf(in.rdbuf()); //redirect std::cin to in.txt!
+	//std::streambuf *cinbuf = std::cin.rdbuf(); //save old buf
+	//std::cin.rdbuf(in.rdbuf()); //redirect std::cin to in.txt!
 
 	std::ofstream out("test_after_translation.off");
-	std::streambuf *coutbuf = std::cout.rdbuf(); //save old buf
-	std::cout.rdbuf(out.rdbuf()); //redirect std::cout to out.txt!
+	//std::streambuf *coutbuf = std::cout.rdbuf(); //save old buf
+	//std::cout.rdbuf(out.rdbuf()); //redirect std::cout to out.txt!
 
 	Polyhedron P;
 	std::cin >> P;
@@ -31,8 +31,8 @@ int main() {
 	/* code to write to off file after translation */
 	out << P;
 	
-	std::cin.rdbuf(cinbuf);   //reset to standard input again
-	std::cout.rdbuf(coutbuf); //reset to standard output again
+	//std::cin.rdbuf(cinbuf);   //reset to standard input again
+	//std::cout.rdbuf(coutbuf); //reset to standard output again
 
 	std::cout << "Completed. " << std::endl;
 
